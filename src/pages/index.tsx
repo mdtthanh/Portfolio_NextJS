@@ -7,6 +7,7 @@ import RightSide from "@/components/RightSide";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -32,6 +33,8 @@ export default function Home() {
           <div className="h-[88vh] w-full mx-auto p-4">
             <Banner />
             <About />
+            <Experience />
+          
           </div>
           <motion.div
             initial={{ opacity: 0 }}
