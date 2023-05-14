@@ -12,6 +12,7 @@ import Project from "@/components/Project";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -52,6 +53,14 @@ export default function Home() {
             <RightSide />
           </motion.div>
         </div>
+
+        <Link
+          href={{
+            pathname: "/login",
+          }}
+        >login
+        
+        </Link>
       </main>
     </>
   );

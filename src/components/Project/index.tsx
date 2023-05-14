@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../SectionTitle";
 import Image from "next/image";
-import { faq, playmusic, tcdbook } from "../../public/assets";
+import { faq, playmusic, tcdbook } from "../../../public/assets";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";

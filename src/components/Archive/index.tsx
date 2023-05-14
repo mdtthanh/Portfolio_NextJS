@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ArchiveCard from "./ArchiveCard";
+import ArchiveCard from "../ArchiveCard";
 import { motion } from "framer-motion";
 const Archive = () => {
   const [showMore, setShowMore] = useState(false);

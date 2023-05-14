@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import SectionTitle from "./SectionTitle";
-import Magenest from "./works/Magenest";
-import Theinfitech from "./works/Theinfitech";
+import SectionTitle from "../SectionTitle";
+import Magenest from "../works/Magenest";
+import Theinfitech from "../works/Theinfitech";
 
 const Experience = () => {
   const [worksMagenest, setWorksMagenest] = useState(true);

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import avt from "../../public/assets/images/avt.jpg";
+import avt from "../../../public/assets/images/avt.jpg";
 const About = () => {
   return (
     <section
