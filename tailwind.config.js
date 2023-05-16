@@ -41,7 +41,11 @@ module.exports = {
         textLight: "#ccd6f6",
         textDark: "#8892b0",
         hoverColor: "rgba(100, 255, 218, 0.1)",
-      }
+        textPurple: "rgb(105 45 202/var(--tw-text-opacity))",
+        purpleDark: "rgb(105 45 202/var(--tw-bg-opacity))",
+        // light: "rgb(248 249 250/var(--tw-text-opacity))"
+
+      },
     },
   },
   plugins: [require("tailwind-scrollbar")],

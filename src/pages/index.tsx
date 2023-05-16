@@ -53,14 +53,6 @@ export default function Home() {
             <RightSide />
           </motion.div>
         </div>
-
-        <Link
-          href={{
-            pathname: "/login",
-          }}
-        >login
-        
-        </Link>
       </main>
     </>
   );
